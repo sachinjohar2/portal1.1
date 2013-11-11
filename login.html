@@ -1,0 +1,134 @@
+<html>
+<head>
+<style>
+input {
+background-color:#99CC66;height:25pt;border:none;border-radius:4pt;
+}
+input:focus{
+background-color:white;
+.buttonGMI
+}
+option {
+background-color:#99CC66;height:25pt;border:none;border-radius:4pt;}
+option:focus{background-color:white;
+}
+select{background-color:#99CC66;height:25pt;border:none;border-radius:4pt;}
+</style>
+
+<script type="text/javascript">
+function check()
+{
+ if(document.getElementById("name").value=="")
+  {
+    window.alert("enter name !!!!");
+return false;
+  }
+if(document.getElementById("pass").value=="")
+  {
+    window.alert("enter password !!!!");
+return false;
+  }
+  
+ else if(document.getElementById("pass").value.length<5 || document.getElementById("pass").value.length>12)
+  {
+    window.alert("password between 5 and 12 characters");
+return false;
+  }
+  else if(document.getElementById("id").value=="")
+  {
+    window.alert("enter unique id !!!");
+return false;
+  }
+else if(document.getElementById("type").value=="")
+  {
+    window.alert("enter user type !!!");
+return false;
+  }
+
+else if(document.getElementById("type").value=="select type")
+  {
+    window.alert("enter user type !!!");
+return false;
+  }
+
+}
+</script>
+
+<style>
+.style1 {
+	color: #FFFF00;
+	font-size: xx-large;
+	font-weight: bold;
+}
+.style2 {color: #CC3300}
+body {
+	}
+body,td,th {
+	color: #000000;
+}
+</style>
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body vlink="black">
+
+<form name="form2" method="post" action="login.php" onSubmit="return check(form2)">
+
+ <p align="center" class="style1"></p>
+ <p>&nbsp;</p>
+ <p>&nbsp;</p>
+ <table border=0 align="center" bgcolor="yellow"> 
+ <table style="
+
+border:1px solid white;
+width:280px;
+height:300px;">
+	
+<tr>
+		<td>User Name:</td>
+		<td><input type="text" name="username" id="name" size=20></td>
+	</tr>
+<tr>
+		<td>Password:</td>
+		<td><input type="password" name="password" id="pass" size=20></td>
+	</tr>
+  <tr>
+
+                <td>User Type:</td>
+                <td><select name="usertype" id="type" >
+                         	<option value="select type">select type</option>
+	<option value="Citizen">citizen</option>
+	<option value="Officer">officer</option>
+	<option value="Administrator">admin</option>
+</select>
+</tr>
+<tr>
+		<td>UserId:</td>
+		<td><input type="text" name="userid" id="id" size=20></td>
+	</tr>
+<tr><tr>
+<tr><tr>
+		<td colspan='2' align="center">
+		<input type="submit" name="submit" value="Sign in" onClick="check()"></td>
+</tr></tr>
+	</tr></tr>
+<tr>
+<td colspan='3' align="center">
+
+<h3 text="white">
+<a href="signup.html"><br> New user Signup now !!!!</span>!</td>
+</h3></tr>
+</table>
+</form>
+
+
+
+
+</style></marquee>
+</div>
+
+</body>
+</html>

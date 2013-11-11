@@ -1,0 +1,163 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<title>Home Page</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+<script>
+$(document).ready(function()
+{
+  $("#1").click(function(){
+$("#mid").fadeOut(50);
+$("#mid").fadeIn(5000,osho());
+ });
+});
+function osho()
+{
+$("#mid").load("login.html");
+}
+$(document).ready(function(){
+$("#2").click(function(){
+$("#mid").fadeOut(50);
+$("#mid").fadeIn(5000,bajpai());   
+ });
+});
+function bajpai()
+{
+$("#mid").load("signup.html");
+}
+
+$(document).ready(function(){
+$("#3").click(function(){
+$("#mid").fadeOut(50);
+$("#mid").fadeIn(5000,sachin());   
+ });
+});
+function sachin()
+{
+$("#mid").load("onlinesell.php");
+}
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="mm_health_nutr.css" type="text/css">
+<script language="javascript">
+//--------------- LOCALIZEABLE GLOBALS ---------------
+var d=new Date();
+var monthname=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+//Ensure correct for language. English is "January 1, 2004"
+var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+//---------------   END LOCALIZEABLE   ---------------
+</script>
+<style type="text/css">
+<!--
+.style1 {font-size: 14px}
+.style2 {font-size: 36px}
+-->
+</style>
+</head>
+<body bgcolor="#F4FFE4">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#FFFFFF">
+    <td colspan="3" rowspan="2"><img src="online1.jpg" alt="Header image" width="383" height="145" border="0"></td>
+    <td height="50" colspan="3" align="center" valign="bottom" nowrap class="style2" id="logo"> Pharmacy Online</td>
+    <td width="206">&nbsp;</td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF">
+    <td height="48" colspan="3" align="center" valign="top" class="style1" id="tagline">Your Trusted Online Pharmacy</td>
+	<td width="206">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td height="3" colspan="7" bgcolor="#5C743D"><img src="mm_spacer.gif" alt="" width="1" height="2" border="0"></td>
+  </tr>
+
+  <tr>
+    <td colspan="7" bgcolor="#99CC66" background="mm_dashed_line.gif"><img src="mm_dashed_line.gif" alt="line decor" width="4" height="3" border="0"></td>
+  </tr>
+
+  <tr bgcolor="#99CC66">
+  	<td colspan="7" id="dateformat" height="20">&nbsp;&nbsp;<h3><marquee behavior="scroll" direction="left">Pharmacy Online</marquee></h3>	</td>
+  </tr>
+  <tr>
+    <td colspan="7" bgcolor="#99CC66" background="mm_dashed_line.gif"><img src="mm_dashed_line.gif" alt="line decor" width="4" height="3" border="0"></td>
+  </tr>
+
+  <tr>
+    <td colspan="7" bgcolor="#5C743D"><img src="mm_spacer.gif" alt="" width="1" height="2" border="0"></td>
+  </tr>
+
+ <tr>
+    <td width="165" valign="top" bgcolor="#5C743D">
+	<table border="0" cellspacing="0" cellpadding="0" width="165" id="navigation">
+        <tr>
+          <td width="165">&nbsp;<br>
+		 &nbsp;<br></td>
+        </tr>
+        <tr>
+          <td width="165"><a href="javascript:;" class="navText">Home</a></td>
+        </tr>
+        <tr>
+          <td width="165"><button type="button" id="1">Login</button></td>
+        </tr>
+        <tr>
+          <td width="165"><button type="button" id="2">Signup</td></button>
+        </tr>
+        <tr>
+          <td width="165"><button type="button" id="3">Contact Us</td></button>
+        </tr>
+        <tr>
+          <td width="165"><button type="button" id="2">Feedback</td></button>
+        </tr>
+      </table>
+ 	 <br>
+  	&nbsp;<br>
+  	&nbsp;<br>
+  	&nbsp;<br> 	</td>
+    <td width="50"><img src="mm_spacer.gif" alt="" width="50" height="1" border="0"></td>
+    <td colspan="2" valign="top"><img src="mm_spacer.gif" alt="" width="305" height="1" border="0"><br>
+	&nbsp;<br>
+	&nbsp;<br>
+	<table border="0" cellspacing="0" cellpadding="0" width="305">
+        <tr>
+          <td class="bodyText" ><p id="mid">Welcome To online Medical Store</p></td>
+		</tr>
+
+		<tr>
+          <td class="bodyText"><p>&nbsp;</p>		</td>
+        </tr>
+      </table>
+	 <br>
+	&nbsp;<br>	</td>
+    <td width="50"><img src="mm_spacer.gif" alt="" width="50" height="1" border="0"></td>
+        <td width="322" valign="top"><br>
+		&nbsp;<br>
+		<table border="0" cellspacing="0" cellpadding="0" width="190" id="leftcol">
+
+	   <tr>
+       <td width="10"><img src="mm_spacer.gif" alt="" width="10" height="1" border="0"></td>
+		<td width="170" class="smallText"><br>
+			<p>&nbsp;</p>
+
+			 <br>
+			&nbsp;<br>          </td>
+         <td width="10">&nbsp;</td>
+        </tr>
+      </table>	</td>
+	<td width="206">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="165">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="168">&nbsp;</td>
+    <td width="138">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="322">&nbsp;</td>
+	<td width="206">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
